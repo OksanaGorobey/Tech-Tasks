@@ -14,6 +14,8 @@
 //If there are no values, it returns NULL
 //
 
+// Expected initialization and all calls in try/catch block
+
 /**
  * Class TimeMap
  */
