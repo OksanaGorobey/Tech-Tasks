@@ -51,7 +51,7 @@ class TimeMap
      * @param string $value
      * @throws Exception
      */
-    public function set(string $key, string $value ): void
+    public function set( string $key, string $value ): void
     {
         if( $value === '' )
         {
