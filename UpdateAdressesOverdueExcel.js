@@ -97,7 +97,6 @@ class UpdateAdressesOverdue {
 
       if (this.lastTaken != '' && (diffDays > this.overdueDays)) {
         this.sheet.getRange(row + 1, this.lastTakenCol + 2).setBackground("crimson");
-        Logger.log("Просрочено в строке " + (row - 1) + ": Взят - " + this.lastTaken);
       }
     }
 
